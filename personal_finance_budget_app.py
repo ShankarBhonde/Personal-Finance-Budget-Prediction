@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score
 @st.cache_data
 def train_model():
     # Load dataset (replace with your file name)
-    df = pd.read_excel(r"C:\Users\91957\Downloads\budget_dataset.xlsx")
+    df = pd.read_excel("budget_dataset.xlsx")
 
     # Select input features and target
     X = df[[
@@ -122,3 +122,4 @@ if st.button("🔍 Predict Budget Adherence"):
 # Footer
 st.markdown("---")
 st.caption("Built with ❤️ using Streamlit & scikit-learn")
+
