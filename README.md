@@ -1,1 +1,2 @@
 # Personal-Finance-Budget-Prediction
+Personal Finance Budget Prediction is a web-based app that helps users manage and forecast their personal finances. It analyzes past income and expenses to predict future budgets, spending patterns, and savings trends. Built with Streamlit, it offers an interactive, user-friendly interface for visualizing financial insights. Deployed on the Streamlit Community Cloud, the app is easily accessible for users to track, analyze, and plan their finances in real time.
